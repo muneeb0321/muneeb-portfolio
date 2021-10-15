@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --primary-color:red;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
+/** container**/
 .container {
     padding-left: 1em;
     padding-right: 1em;
@@ -13,4 +17,8 @@ body{
     max-width: 600px;
     margin:auto;
 
+}
+/**links**/
+.primary-link{
+    color: var(--primary-color);
 }
