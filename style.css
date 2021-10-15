@@ -52,7 +52,42 @@ hr{
     list-style: none;
 }  
 
-.list-iterm-inline{
+.list-item-inline{
     display: inline;
-    padding: 0 rem 0.5 rem;
+    padding: 0rem 3rem;
 }
+
+/**navigation**/
+
+.navigation {
+    background-color: #1E40AF;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+    
+   
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
