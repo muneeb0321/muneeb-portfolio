@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root{
-    --primary-color:red;
+    --primary-color: #1E40AF;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -18,7 +18,26 @@ body{
     margin:auto;
 
 }
-/**links**/
-.primary-link{
-    color: var(--primary-color);
+
+
+.Link {
+    text-decoration: none;
+    padding: 0.5rem;
 }
+
+.link-primary {
+    background-color: #1E40AF;
+     border-radius: 0.5rem;
+     color: white
+  }
+  
+  
+    
+.link-secondary {
+    color: #1E40AF;
+    border-radius: 0.5rem;
+    border: 1px solid #1E40AF;
+     
+     
+    }
+    /** look into bem naming in css**/
