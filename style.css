@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
-    --primary-color: #EC4899;
+    --primary-color: #ffc107;
     --dark-gray: #6B7280;
     --off-white: #E5E7EB;
 }
@@ -35,7 +35,7 @@ hr {
 }
 
 .link-primary {
-    background-color: #EC4899;
+    background-color: #ffc107;
     border-radius: 0.5rem;
     color: white
 }
@@ -43,9 +43,9 @@ hr {
 
 
 .link-secondary {
-    color: #EC4899;
+    color: #ffc107;
     border-radius: 0.5rem;
-    border: 1px solid #EC4899;
+    border: 1px solid #ffc107;
 
 
 }
@@ -66,7 +66,7 @@ hr {
 /**navigation**/
 
 .navigation {
-    background-color: #EC4899;
+    background-color: #ffc107;
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -112,11 +112,12 @@ hr {
 }
 
 .hero .hero-heading .heading-inverted {
-    color: #EC4899;
+    color: #ffc107;
 }
 
 .section {
     padding: 2rem;
+    
     
 }
 
@@ -126,16 +127,14 @@ hr {
     font-weight: bold;
 }
 
-.section para{
-    font-weight: bold;
-}
+
 
 .ow {
     background-color: var(--off-white);
 }
 
 .footer {
-    background-color: #EC4899;
+    background-color: #ffc107;
     padding: 2rem 0rem;
     text-align: center;
     color: white;
