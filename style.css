@@ -117,11 +117,16 @@ hr {
 
 .section {
     padding: 2rem;
+    
 }
 
 .section h1 {
     text-align: center;
     padding: 2rem;
+    font-weight: bold;
+}
+
+.section para{
     font-weight: bold;
 }
 
